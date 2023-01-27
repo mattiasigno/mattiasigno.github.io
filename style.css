@@ -1,0 +1,9 @@
+{img 
+                border-radius: 50%;
+ }
+
+ .center-box
+ {
+   display: center;
+   justify-content: center; 
+ }
