@@ -1,9 +1,44 @@
-{img 
-                border-radius: 50%;
- }
+img {
+  border-radius: 50%;
+  border-image-width: 50px;
+}
+  
+div.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  }
 
- .center-box
- {
-   display: center;
-   justify-content: center; 
- }
+.center-box{
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: rgb(192, 54, 44);
+}
+
+.myname {
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 5px yellow;
+}
+
+h3{    
+  color: rgb(0, 14, 14);
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+p{
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.s{
+  display: flex;
+  justify-content: space-around;
+
+}
